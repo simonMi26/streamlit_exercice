@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import os
-from PIL import Image
-#import matplotlib.pyplot as plt
 st.title("Exercices")
 
+st.header("Veuillez installer streamlit et pandas")
+st.code("""
+import streamlit as st
+import pandas as pd
+""")
 
 # exercice 1
 st.header("Afficher le Dataset")
